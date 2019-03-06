@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class Main {
 
+	//test update
+	
 	public static void main(String[] args) throws AWTException {
 		System.out.println("Press c to stop the program");
 		Scanner sc = new Scanner(System.in);
