@@ -7,16 +7,18 @@ public class Click {
 		Robot bot = new Robot();
 		bot.mouseMove(x, y);
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+		bot.delay(60);
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 	}
-	
+
 	public static void rightClick(int x, int y) throws AWTException {
 		Robot bot = new Robot();
 		bot.mouseMove(x, y);
 		bot.mousePress(InputEvent.BUTTON3_DOWN_MASK);
+		bot.delay(60);
 		bot.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);
 	}
-	
+
 	public static void doubleClick(int x, int y) throws AWTException {
 		Robot bot = new Robot();
 		bot.mouseMove(x, y);
