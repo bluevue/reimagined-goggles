@@ -1,0 +1,23 @@
+# TO FIND CURSOR AXIS
+xdotool getmouselocation --shell
+
+
+# TO UPDATE GITHUB REPO
+# 1. first cd to the Project folder.
+cd eclipse-workspace/BaseProgram
+
+# 2. add new files to the repo (this will add all)
+git add .
+
+# 3. commit the files for upload
+git commit -m "short explaination"
+
+# 4. push to master branch
+git push origin master
+
+
+# TO UPDATE/ADD TO A EXISTING/NEW MACHINE
+git pull
+
+# if above cmd give error of pending commits, run below:
+git stash
