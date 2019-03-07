@@ -13,13 +13,13 @@ import java.awt.event.InputEvent;
 
 public class Menu {
 	public static void cmbTab() throws AWTException {
-		// finds Y axis
+		// finds X axis
 		Random randomX = new Random();
 		int lowX = 793;
 		int randX = randomX.nextInt(24);
 		randX += lowX;
 
-		// finds x axis
+		// finds Y axis
 		Random randomY = new Random();
 		int lowY = 226;
 		int randY = randomY.nextInt(24);
