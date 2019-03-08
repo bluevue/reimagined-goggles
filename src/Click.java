@@ -1,3 +1,12 @@
+
+///////////////////////////////////////////////////////////////////
+//																 //
+//	These functions are simple mouse clicks.					 //
+//	May delete this if I create the clicks in more specific		 //
+//	functions.													 //
+//																 //
+///////////////////////////////////////////////////////////////////
+
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.InputEvent;

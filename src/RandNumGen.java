@@ -1,3 +1,11 @@
+
+///////////////////////////////////////////////////////////////////
+//																 //
+//	These functions will create the random numbers for realistic //
+//	human movements while playing the game.						 //
+//																 //
+///////////////////////////////////////////////////////////////////
+
 import java.util.Random;
 
 public class RandNumGen {

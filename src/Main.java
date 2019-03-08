@@ -1,3 +1,11 @@
+
+///////////////////////////////////////////////////////////////////
+//																 //
+//	For now this is where I'll test functions. 					 //
+//	In the future I hope this will run the initial gui.			 //
+//																 //
+///////////////////////////////////////////////////////////////////
+
 import java.awt.AWTException;
 import java.util.Scanner;
 

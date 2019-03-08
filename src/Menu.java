@@ -1,5 +1,6 @@
 
 ///////////////////////////////////////////////////////////////////
+//																 //
 //	These functions will move the mouse to the corresponding tab //
 //	and click to open the tab.									 //
 //	Each function has a delay at the end.						 //
