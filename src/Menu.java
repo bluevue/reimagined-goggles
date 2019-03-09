@@ -32,7 +32,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -55,7 +55,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -78,7 +78,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -102,7 +102,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -125,7 +125,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -148,7 +148,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -171,7 +171,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -196,7 +196,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -219,7 +219,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -242,7 +242,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -265,7 +265,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -288,7 +288,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -311,7 +311,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -334,7 +334,7 @@ public class Menu {
 		Robot bot = new Robot();
 		bot.delay(1000);
 		bot.mouseMove(randX, randY);
-		bot.delay(RandNumGen.pressReleaseRand());
+		bot.delay(RandNumGen.moveMouseRand());
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
