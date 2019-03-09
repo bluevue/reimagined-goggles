@@ -19,5 +19,16 @@ public class RandNumGen {
 		
 		return plusTen;
 	}
+	
+	public static int moveMouseRand () {
+		Random random = new Random();
+		int plusTen = 450;
+		int randInt = random.nextInt(100);
+		plusTen += randInt;
+		System.out.println(plusTen);
+		
+		return plusTen;
+	}
+	
 }
 
