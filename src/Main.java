@@ -7,6 +7,7 @@
 ///////////////////////////////////////////////////////////////////
 
 import java.awt.AWTException;
+import java.awt.Robot;
 import java.util.Scanner;
 
 
@@ -14,9 +15,10 @@ public class Main {
 
 		
 	public static void main(String[] args) throws AWTException {
+		Robot bot = new Robot();
+		bot.delay(5000);
 		
-		
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 3; i++) {
 			Menu.cmbTab();
 			Menu.skillsTab();
 			Menu.questTab();
