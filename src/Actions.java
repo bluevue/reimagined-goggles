@@ -83,6 +83,31 @@ public class Actions {
 		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 	}
+	
+	
+	
+	public static void withdrawlFirst() throws AWTException {
+		// finds X axis
+		Random randomX = new Random();
+		int lowX = 336;
+		int randX = randomX.nextInt(14);
+		randX += lowX;
+
+		// finds Y axis
+		Random randomY = new Random();
+		int lowY = 137;
+		int randY = randomY.nextInt(14);
+		randY += lowY;
+
+		// creates robot, moves cursor and clicks
+		Robot bot = new Robot();
+		bot.delay(1000);
+		bot.mouseMove(randX, randY);
+		bot.delay(RandNumGen.pressReleaseRand());
+		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+		bot.delay(RandNumGen.pressReleaseRand());
+		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+	}
 
 	// opens bank in lumby
 	public static void bankLumby() throws AWTException {
@@ -91,6 +116,29 @@ public class Actions {
 		bot.delay(1000);
 		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		bot.delay(100);
+		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+	}
+	
+	// opens bank in ge west side
+	public static void bankGE() throws AWTException {
+		Random randomX = new Random();
+		int lowX = 627;
+		int randX = randomX.nextInt(40);
+		randX += lowX;
+
+		// finds Y axis
+		Random randomY = new Random();
+		int lowY = 226;
+		int randY = randomY.nextInt(40);
+		randY += lowY;
+
+		// creates robot, moves cursor and clicks
+		Robot bot = new Robot();
+		bot.delay(1000);
+		bot.mouseMove(randX, randY);
+		bot.delay(RandNumGen.moveMouseRand());
+		bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+		bot.delay(RandNumGen.pressReleaseRand());
 		bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 	}
 }

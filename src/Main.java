@@ -18,7 +18,21 @@ public class Main {
 		Robot bot = new Robot();
 		bot.delay(5000);
 		
-		for (int i = 0; i < 3; i++) {
+		Actions.setCamera();
+		Menu.invTab();
+		
+		for (int i = 0; i < 15; i++) {
+			Actions.bankGE();
+			Inventory.ATwo();
+			Actions.withdrawlFirst();
+			Actions.exitBank();
+			Inventory.AOne();
+			Inventory.ATwo();
+			Fletch.oakLongbow();
+			bot.delay(Fletch.fletchRand());
+			
+			
+			/*
 			Menu.cmbTab();
 			Menu.skillsTab();
 			Menu.questTab();
@@ -36,11 +50,12 @@ public class Main {
 			Menu.musicTab();
 			
 			Actions.setCamera();
-			Actions.bankLumby();
+			Actions.bankGE();
 			Actions.bankAll();
 			Actions.exitBank();
+			*/			
 		}
-		
+		System.exit(0);		
 	}
 
 }
